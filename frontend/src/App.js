@@ -19,9 +19,7 @@ function App() {
         <div>
           {data.map((item) => (
             <div key={item._id} >
-              <p>Name: {item.name}</p>
-              <p>Email: {item.email}</p>
-              <p>Number: {item.number}</p>
+              | Name: {item.name} | Email: {item.email} | Number: {item.number} |
             </div>
           ))}
         </div>
